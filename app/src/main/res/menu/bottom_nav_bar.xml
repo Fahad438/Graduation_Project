@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homepage"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/course"
+        android:title="Course"
+        android:icon="@drawable/ic_course"/>
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_account"/>
+    <item
+        android:id="@+id/library"
+        android:title="Library"
+        android:icon="@drawable/ic_book"/>
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:icon="@drawable/ic_more"/>
+
+</menu>

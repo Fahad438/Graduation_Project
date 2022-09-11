@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    tools:context=".PlacementTest">
+    <TextView
+        android:id="@+id/quizNameTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Quiz"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/quizQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="10dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quizAns1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/answer_btn"
+        android:onClick="onClick" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quizAns2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/answer_btn"
+        android:onClick="onClick" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quizAns3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/answer_btn"
+        android:onClick="onClick" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quizAns4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/answer_btn"
+        android:onClick="onClick" />
+
+    <TextView
+        android:id="@+id/quizNextWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/red"
+        android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/quizNextQ"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:background="@drawable/blue_btn"
+        android:paddingBottom="5dp"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:layout_gravity="center|bottom" />
+</LinearLayout>

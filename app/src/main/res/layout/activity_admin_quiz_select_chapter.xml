@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminSelectChapter"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/img">
+
+    <TextView
+        android:id="@+id/QuizNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Select chapter"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/usernameReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="start"
+
+        android:text="Chapter number"
+        android:textSize="17sp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drop_down_test"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextBtn"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/blue_btn"
+        android:paddingBottom="3dp"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

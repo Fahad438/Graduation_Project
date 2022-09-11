@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminDeleteAdmin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/img">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Account"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:layout_marginTop="200dp"
+        android:id="@+id/selectAdmin"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drop_down_test"
+        android:padding="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/deleteBtnAdmin"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/blue_btn"
+        android:paddingBottom="5dp"
+        android:text="Delete"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

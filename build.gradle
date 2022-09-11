@@ -1,0 +1,29 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+<<<<<<< HEAD
+        classpath "com.android.tools.build:gradle:7.0.4"
+=======
+        classpath 'com.android.tools.build:gradle:7.2.0'
+>>>>>>> a605480 (commit)
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+<<<<<<< HEAD
+=======
+plugins {
+    id 'com.android.application' version '7.2.0' apply false
+    id 'com.android.library' version '7.2.0' apply false
+}
+
+>>>>>>> a605480 (commit)
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

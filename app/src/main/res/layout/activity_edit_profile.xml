@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".EditProfile">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImg"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="69dp"
+        android:src="@drawable/default_profile"
+        app:civ_border_color="@color/blue"
+        app:civ_border_width="6dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/editProfilePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-55dp"
+        android:layout_marginStart="60dp"
+        app:srcCompat="@drawable/ic_edit"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/about" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:maxLines="1"
+        android:paddingTop="8dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/editWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/red"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/usernameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Username"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/usernameEdit"
+        android:layout_width="311dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/text"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/aboutTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="About"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/aboutEdit"
+        android:layout_width="311dp"
+        android:layout_height="150dp"
+        android:layout_gravity="left"
+        android:gravity="top|start"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="50dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/text"
+        android:padding="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/saveNewProfile"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blue_btn"
+        android:paddingBottom="3dp"
+        android:text="Save changes"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/uploadImage"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blue_btn"
+        android:paddingBottom="3dp"
+        android:visibility="gone"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>

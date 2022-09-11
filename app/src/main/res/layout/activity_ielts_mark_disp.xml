@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IELTSMarkDisp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:text="Congratulations!!"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/markText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ProgressBar
+        android:id="@+id/markProgressBar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/circle_bar"
+        tools:progress="60" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/markBtn"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/blue_btn"
+        android:paddingBottom="3dp"
+        android:text="home"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>

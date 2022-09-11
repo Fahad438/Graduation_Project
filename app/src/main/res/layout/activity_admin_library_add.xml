@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddBook"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    android:gravity="center_horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Library"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/red"
+        android:textSize="15sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Book Name"
+        android:textColor="@color/blue"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/bookName"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:text="Book Cover"
+        android:textColor="@color/blue"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/bookCover"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:text="Book Link"
+        android:textColor="@color/blue"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/bookLink"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:padding="10dp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addBookBtn"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/blue_btn"
+        android:paddingBottom="5dp"
+        android:text="Add book"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

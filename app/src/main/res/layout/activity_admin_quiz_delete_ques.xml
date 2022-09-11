@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminDeleteQuizQuestion"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/img">
+
+    <TextView
+        android:id="@+id/QuizNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Delete questions"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/usernameReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/blue"
+        android:text="Select question"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/selectQues"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drop_down_test"
+        android:padding="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/deleteBtn"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/blue_btn"
+        android:paddingBottom="5dp"
+        android:text="Delete question"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".StartExercise">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Exercise"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/exRV"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_marginTop="75dp" />
+
+    <TextView
+        android:id="@+id/exerciseWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/red"
+        android:textSize="15sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitExercise"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:background="@drawable/blue_btn"
+        android:paddingBottom="3dp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+
+</LinearLayout>

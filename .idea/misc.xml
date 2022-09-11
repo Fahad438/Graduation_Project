@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+<<<<<<< HEAD
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20065789473684212" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/btn_answer.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/btn_blue.xml" value="0.20065789473684212" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/btn_red.xml" value="0.21180555555555555" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/btn_selected_ans.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/btn_white.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/card.xml" value="0.21180555555555555" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/circle_show_ans.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/droplist.xml" value="0.2747747747747748" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/font.xml" value="0.20164473684210527" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/ic_book.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/ic_cour.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/ic_ex.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20065789473684212" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/ic_lessons.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/ic_more.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/ic_quiz.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/login_btn.xml" value="0.2546052631578947" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/navbar.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/selector.xml" value="0.26875" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/signup_btn.xml" value="0.2546052631578947" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/text.xml" value="0.20164473684210527" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/drawable/text_pass.xml" value="0.20164473684210527" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout-large/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout-large/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout-small/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_course_page.xml" value="0.25" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_home.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_main2.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_main3.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_mark_placement.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_placement_test.xml" value="0.18" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_quiz_mark_page.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_quiz_page.xml" value="0.2" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_quiz_qustion_page.xml" value="0.16" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_qustion_page.xml" value="0.20491803278688525" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/content_main3.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/custom_dialog_.xml" value="0.22" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/fragment_cours_page.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/fragment_dashboard.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/fragment_first.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/fragment_first2.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/fragment_home.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/fragment_library.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/fragment_notifications.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/fragment_second.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/fragment_second2.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/mainActivity.xml" value="0.25" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/main_activity.xml" value="0.18" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/layout/s.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/GP1/app/src/main/res/menu/menu_navg.xml" value="0.25798611111111114" />
+=======
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/drawable/drop_down_test.xml" value="0.1255" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/drawable/img_corners.xml" value="0.137" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/drawable/selected_ans_btn.xml" value="0.1615" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/drawable/selector.xml" value="0.279" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/drawable/text2222.xml" value="0.195" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout-v23/activity_ielts_test_listening_qus.xml" value="0.1265625" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_about_us.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_account_settings.xml" value="0.152" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_add_admin.xml" value="0.2" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_add_exercise.xml" value="0.17601351351351352" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_add_exercise_questions.xml" value="0.16689189189189188" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_add_lessons.xml" value="0.12" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_course.xml" value="0.2" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_course_addchapter.xml" value="0.264" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_delete_admin.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_delete_exercise_questions.xml" value="0.16891891891891891" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_delete_lessons.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_edit_exercise_question.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_edit_lessons.xml" value="0.16" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_exercises.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_home_page.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_lessons.xml" value="0.264" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_library.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_library_add.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_library_modify.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_manage_account.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_quiz.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_quiz_add_ques.xml" value="0.2" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_quiz_delete_ques.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_quiz_modify_ques.xml" value="0.11200000000000002" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_quiz_select_chapter.xml" value="0.264" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_view_lessons.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_admin_view_questions.xml" value="0.16891891891891891" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_course.xml" value="0.264" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_edit_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_exercises.xml" value="0.15506756756756757" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ielts.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ielts_mark_disp.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ielts_test.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ielts_test1.xml" value="0.2" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ielts_test2.xml" value="0.2" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ielts_test_listening.xml" value="0.176" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ielts_test_listening_qus.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ielts_test_theory.xml" value="0.1" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ieltspage.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ieltsshow_marks.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ieltsteat_sections.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ieltstest.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ieltstest_section_grammar.xml" value="0.264" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ieltstest_section_listening_qus.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_ieltstest_sections_listening.xml" value="0.10135135135135136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_lessons.xml" value="0.176" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_library.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_login.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_mark_disp.xml" value="0.2390625" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_mark_disp_quiz.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_nav_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_placement_test.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_pre_start.xml" value="0.275" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_profile.xml" value="0.15506756756756757" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_quizzes.xml" value="0.15506756756756757" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_register.xml" value="0.176" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_start_exercise.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_start_lesson.xml" value="0.136" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_start_quiz.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/activity_view_marks.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/book_layout.xml" value="0.152" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/exercise_layout.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/iconn.xml" value="0.264" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/lesson_layout.xml" value="0.2" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/nav_header.xml" value="0.264" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/pre_activity.xml" value="0.264" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/profile_layout.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/question_layout.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/layout/question_v_layout.xml" value="0.17736486486486486" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/menu/bottom_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/menu/nav_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.138" />
+        <entry key="..\:/Users/Ahr97/Desktop/ABCPro/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.138" />
+        <entry key="..\:/Users/Ahr97/Desktop/UQU-CS-2021S-13-M/ABCPro/app/src/main/res/layout/activity_lessons.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/UQU-CS-2021S-13-M/ABCPro/app/src/main/res/layout/activity_start_lesson.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/Ahr97/Desktop/UQU-CS-2021S-13-M/ABCPro/app/src/main/res/layout/lesson_layout.xml" value="0.17804054054054055" />
+        <entry key="..\:/Users/fahad/AndroidStudioProjects/ABCPro/app/src/main/res/layout/activity_start_quiz.xml" value="0.11180555555555556" />
+>>>>>>> a605480 (commit)
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+<<<<<<< HEAD
+=======
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.176" />
+      </ProjectState>
+    </option>
+  </component>
+>>>>>>> a605480 (commit)
+</project>

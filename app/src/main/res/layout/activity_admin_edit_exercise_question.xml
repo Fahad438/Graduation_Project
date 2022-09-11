@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".AdminEditExerciseQuestion">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Edit Exercise\nQuestion"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Chapter Number:"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/chapterNum"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/drop_down_test"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:text="Lesson Title:"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/lessonTitle"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/drop_down_test"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:text="Question:"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/questionTxt"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/drop_down_test"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/warning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/questionNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="New Question"
+                android:textColor="@color/blue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:text="Question"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/question"
+                android:layout_width="370dp"
+                android:layout_height="40dp"
+                android:background="@drawable/text"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/ansView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="10dp"
+                android:text="Answer 1"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/ans1"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text"
+                android:inputType="textPersonName"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Answer 2"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/ans2"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Answer 3"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/ans3"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Answer 4"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/ans4"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Correct answer"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/correct_answer"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text"
+                android:padding="10dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/saveBtn"
+                android:layout_width="250dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/blue_btn"
+                android:paddingBottom="5dp"
+                android:text="Save"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

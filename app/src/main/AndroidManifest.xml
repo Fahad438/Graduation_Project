@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gp_1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+=======
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+>>>>>>> a605480 (commit)
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+<<<<<<< HEAD
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GP1"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".QuizMarkPage"
+            android:exported="false" />
+        <activity
+            android:name=".QustionPage"
+            android:exported="false" />
+        <activity
+            android:name=".QuizPage"
+            android:exported="false" />
+        <activity
+            android:name=".CoursePage"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".MarkPlacement"
+            android:exported="false" />
+        <activity
+            android:name=".PlacementTest"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+=======
+        android:preserveLegacyExternalStorage="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ABCPro"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".AdminViewQuestions"
+            android:exported="false" />
+        <activity
+            android:name=".AdminEditExerciseQuestion"
+            android:exported="false" />
+        <activity
+            android:name=".adminDeleteExerciseQuestions"
+            android:exported="false" />
+        <activity
+            android:name=".AdminExercises"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddExerciseQuestions"
+            android:exported="false" />
+        <activity
+            android:name=".AccountSettings"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MarkDispQuiz"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IELTSTest2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".AdminDeleteAdmin"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminManageAdmins"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAddAdmin"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminEditBook"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAddBook"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminLibrary"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminEditQuizQuestion"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDeleteQuizQuestion"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAddQuizQuestion"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminSelectChapter"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminQuizzes"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminViewLessons"
+            android:exported="false" />
+        <activity
+            android:name=".AdminEditLesson"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAddLesson"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminDeleteLesson"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminLessons"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminAddChapter"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminCourse"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminHomePage"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IELTSMarkDisp"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IELTSTestTheory"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IELTSTestListeningQus"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IELTSTestListening"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IELTSTest1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IELTS"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewMarks"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Library"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartQuiz"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartLesson"
+            android:exported="false" />
+        <activity
+            android:name=".Lessons"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Quizzes"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MarkDisp"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PlacementTest"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Course"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PreActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+>>>>>>> a605480 (commit)
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<<<<<<< HEAD
+=======
+        <activity
+            android:name=".Exercises"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartExercise"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+>>>>>>> a605480 (commit)
+    </application>
+
+</manifest>

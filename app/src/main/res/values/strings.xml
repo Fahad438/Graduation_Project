@@ -1,0 +1,20 @@
+<resources>
+<<<<<<< HEAD
+    <string name="app_name">GP-1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_homepagee">Homepagee</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_main3">MainActivity3</string>
+
+=======
+    <string name="app_name">ABCPro</string>
+    <string name="open_nav">Open Menu</string>
+    <string name="close_nav">Close Menu</string>
+    <string name="about">This application was developed by Quadratic Team, the idea was </string>
+>>>>>>> a605480 (commit)
+</resources>

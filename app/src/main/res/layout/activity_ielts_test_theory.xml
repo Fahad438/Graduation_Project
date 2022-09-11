@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IELTSTestTheory"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/img"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="IELTS Theory"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/questionNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:lineSpacingExtra="10dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="10dp"
+        android:padding="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idBtnOption1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/answer_btn"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:onClick="onClick" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idBtnOption2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/answer_btn"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:onClick="onClick" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idBtnOption3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/answer_btn"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:onClick="onClick" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idBtnOption4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/answer_btn"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:onClick="onClick" />
+</LinearLayout>

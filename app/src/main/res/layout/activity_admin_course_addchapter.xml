@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".AdminAddChapter">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Add Chapter"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="start"
+        android:textColor="@color/blue"
+        android:text="Chapter number:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/chapterNum"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text"
+        android:hint="Enter chapter number"
+        android:inputType="number"
+        android:paddingLeft="15dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/blue_btn"
+        android:text="Add chapter"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:paddingBottom="5dp"
+        android:id="@+id/addChapterDB"/>
+
+</LinearLayout>

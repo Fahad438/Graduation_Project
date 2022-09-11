@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    tools:context=".StartLesson">
+
+    <TextView
+        android:id="@+id/lessonNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Lesson"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="48dp"
+        app:cardCornerRadius="40dp">
+
+
+    <WebView
+        android:id="@+id/lessonContentWV"
+        android:layout_width="match_parent"
+        android:layout_height="627dp"/>
+
+</androidx.cardview.widget.CardView>
+</LinearLayout>

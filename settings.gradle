@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+=======
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+>>>>>>> a605480 (commit)
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+<<<<<<< HEAD
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "GP-1"
+=======
+    }
+}
+rootProject.name = "ABCPro"
+>>>>>>> a605480 (commit)
+include ':app'
